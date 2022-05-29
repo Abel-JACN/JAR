@@ -1,5 +1,5 @@
 FROM openjdk:19
-WORKDIR /araujo
+WORKDIR /target
 COPY . .
 RUN ls
 ENTRYPOINT java -jar ExecCli.jar
