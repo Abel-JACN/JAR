@@ -1,6 +1,6 @@
 FROM openjdk:11
 WORKDIR /target
-COPY . .
-RUN ls
-ENTRYPOINT java -jar ExecCli.jar
+COPY . . 
+RUN ls 
+ENTRYPOINT java -jar ExecCli.jar 
 CMD ["bash","java","-jar" "Main"]
